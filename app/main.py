@@ -13,6 +13,8 @@ def read_root():
 
 from app.routers import comandas
 from app.routers import mesas
+from app.routers import productos
 
 app.include_router(comandas.router)
 app.include_router(mesas.router)
+app.include_router(productos.router)
